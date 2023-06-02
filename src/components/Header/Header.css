@@ -1,0 +1,139 @@
+
+.header-wrapper{
+  width: 90vw;
+  
+}
+
+.header-container{
+    width: 90vw;
+    padding-left: 10vw;
+    border-bottom: 1px solid var(--grey);
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    align-items: flex-end;
+   
+}
+
+.header-logo{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.header-circle{
+    height: 6px;
+    width: 6px;
+    background-color: red;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    border-radius: 50%;
+    line-height: 3.5rem;
+    
+}
+
+.header-logo-name{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.header-list-wrap{
+  display: flex;
+}
+
+.header-list-cont{
+   margin-right: 12rem;
+   display: flex;
+   gap: 3rem;
+}
+
+.hedaer-list-name{
+    color: var(--grey);
+}
+
+.header-list-btn{
+    margin-right: 5rem;
+    background-color: transparent;
+    border: 1px solid black;
+    /* height: 3vh;
+    width: 8vw; */
+   
+    padding: 5px 20px 5px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+@media only screen and (max-width: 600px){
+    .header-list-cont{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .header-list-cont{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .header-logo{
+        
+    }
+
+    .header-list-cont{
+        margin-right: 5rem;
+        display: flex;
+        gap: 1rem;
+     }
+}
+
+@media only screen and (min-width: 992px){
+    .header-wrapper{
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+/* @media screen and (max-width: 768px) {
+    .header-wrapper {
+      background-color: lightblue;
+      width: 90vw;
+    }
+
+    .header-container{
+        width: 100%;
+    }
+
+    .header-list-cont{
+        display: none;
+    }
+
+    .header-list-btn{
+        margin-right: 2rem;
+        font-size: .8rem;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .header-wrapper {
+      background-color: lightgreen;
+      width: 100%;
+    }
+
+    .header-container{
+        width: 100%;
+    }
+
+    .header-list-cont{
+        display: none;
+    }
+  } */
